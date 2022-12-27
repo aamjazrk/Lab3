@@ -8,4 +8,5 @@ type Role struct {
 	gorm.Model
 
 	Name string
+	Old  uint
 }
